@@ -13,8 +13,11 @@ if (_hor != 0 or _ver != 0) {
 	} else if (_ver < 0) {
 		sprite_index = spr_player_walk_up;
 	}
+<<<<<<< HEAD
 	
 	facing = point_direction(0, 0, _hor, _ver);
+=======
+>>>>>>> 7977070 (Initial commit)
 } // endif
 else {
 	if (sprite_index == spr_player_walk_right) {
@@ -26,6 +29,7 @@ else {
 	} else if (sprite_index == spr_player_walk_up) {
 		sprite_index = spr_player_idle_up;
 	}
+<<<<<<< HEAD
 } // endif
 
 if(keyboard_check_pressed(vk_space)) {
@@ -34,3 +38,6 @@ if(keyboard_check_pressed(vk_space)) {
 	_inst.damage *= damage;
 }
 
+=======
+} // endif
+>>>>>>> 7977070 (Initial commit)

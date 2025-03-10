@@ -9,6 +9,7 @@ bounce_direction = 0;  // Direction to bounce off walls
 // Set initial sprite
 sprite_index = spr_blobulon_idle;  // Replace with your idle sprite
 
+<<<<<<< HEAD
 tilemap = layer_tilemap_get_id("Tiles_Col");
 
 // Knockback
@@ -17,3 +18,6 @@ kb_y = 0;
 
 target_x = x;
 target_y = y;
+=======
+tilemap = layer_tilemap_get_id("Tiles_Col");
+>>>>>>> 7977070 (Initial commit)
