@@ -1,0 +1,1 @@
+x -= _pipe_speed;

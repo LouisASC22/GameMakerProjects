@@ -1,0 +1,1 @@
+_pipe_speed = global.pipe_speed;
