@@ -10,11 +10,14 @@ if (place_meeting(x, y, obj_player))
         obj_player. is_interacting = true;
         global.dialogue_active = true;
         global.dialogue_text = "Look... I don't know about any great war or responsibility, I just know that I really want to wipe the smirk off that guy's face! You with me?";  // NPC specific text
-		show_debug_message("Dialogue Triggered!");
+		// show_debug_message("Dialogue Triggered!");
     }
 }
 else
 {
     obj_player.is_in_range = false;
-	show_debug_message("Player is not in range!");
+	global.dialogue_active = false;
+	global.dialogue_text = "";
+	// show_debug_message("Player is not in range!");
+	
 }

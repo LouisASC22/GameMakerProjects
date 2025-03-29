@@ -18,3 +18,7 @@ camera_offset_y = 0;
 
 max_text_width = box_width - 70;
 wrapped_text = "Pringles";
+
+global.show_crosshair = true;
+cursor_sprite = spr_crosshair_1;
+window_set_cursor(cr_none);
